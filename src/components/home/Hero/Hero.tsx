@@ -4,7 +4,8 @@ export const Hero = () => {
 
     return(
         <section className={styles.Hero}>
-            <h1>Empowering you tomorrow, today! </h1>
+            <h1>Future world</h1>
+            <h2>Empowering you tomorrow, today! </h2>
         </section>
         
     )
