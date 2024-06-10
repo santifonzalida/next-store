@@ -10,7 +10,7 @@ export const Description = () => {
 
 const [hasBorder, setHasBorder] = useState(false);
 
-const handleClick = () => setBorder(!hasBorder);
+const handleClick = () => setHasBorder(!hasBorder);
 
   const cx = classNames.bind(styles);
 
