@@ -16,10 +16,9 @@ export default async function ProductPage({searchParams}: ProductPageProps){
     if(!id) {
         redirect('/store');
     }
-
+    
     const products = await getProducts(id);
-    const product = products[0];
-
+    const product = products[0]
 
     return <ProductView product={product}/>
 }
