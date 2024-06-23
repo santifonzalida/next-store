@@ -1,7 +1,12 @@
 import { getCollections } from "app/services/shopify/collections";
 import Link from "next/link";
 import styles from './StoreLayout.module.sass'
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+    title: "Store",
+    description: "Find the product that suit you!"
+  }
 
 export default async function Layout({ children}: {children: React.ReactNode}) {
     
